@@ -1,0 +1,49 @@
+.header_container {
+  position: flex;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.header_topmenu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 40px 0;
+  font-weight: lighter;
+}
+
+.header_topmenu_link {
+  margin-left: 24px;
+}
+
+.header_logomenu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header_logomenu_link {
+  width: 120px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.header_logomenu_icon {
+  font-size: 20px;
+}
+
+.header_logomenu_icon_container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.font_normal {
+  font-weight: normal;
+}
