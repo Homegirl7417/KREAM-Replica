@@ -1,0 +1,21 @@
+.productTitle {
+  margin-top: 40px;
+  margin-bottom: 56px;
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.productSubTitle {
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 14px;
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+.productItmes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1em;
+}

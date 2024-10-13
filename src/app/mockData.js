@@ -1,0 +1,42 @@
+export const mockData = [
+  {
+    image: '/mockShoes1.webp',
+    isBookmarked: false,
+    productName: 'Jordan 1 x Travis Scott Retro Low OG SP Reverse Olive',
+    brandName: 'Jordan',
+    quickDelivery: true,
+    discountedPrice: 659000,
+  },
+  {
+    image: '/mockShoes2.webp',
+    isBookmarked: false,
+    productName: `Nike Air Force 1 '07 WB Flax`,
+    brandName: 'Nike',
+    quickDelivery: true,
+    discountedPrice: 122000,
+  },
+  {
+    image: '/mockShoes3.webp',
+    isBookmarked: false,
+    productName: 'Nike x Peaceminusone Air Force 1 Low Para-Noise 3.0 Black and Multicolor',
+    brandName: 'Nike',
+    quickDelivery: true,
+    discountedPrice: 260000,
+  },
+  {
+    image: '/mockShoes4.webp',
+    isBookmarked: false,
+    productName: 'IAB Studio Hoodie Light Gray',
+    brandName: 'IAB Studio',
+    quickDelivery: true,
+    discountedPrice: 143000,
+  },
+  {
+    image: '/mockShoes5.webp',
+    isBookmarked: false,
+    productName: 'Adidas Waffle Beckenbauer Track Top Wonder White - KR Sizing',
+    brandName: 'Adidas',
+    quickDelivery: true,
+    discountedPrice: 157000,
+  },
+];
