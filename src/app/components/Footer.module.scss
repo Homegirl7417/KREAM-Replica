@@ -1,0 +1,82 @@
+.footer_container {
+  padding: 50px 40px;
+  border-top: 1px solid #ebebeb;
+}
+
+.footer_topmenu_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 40px 0;
+  font-weight: lighter;
+}
+
+.footer_topmenu_left_container {
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer_topmenu_guidemenu_container {
+  font-weight: lighter;
+  &:nth-child(2) {
+    margin-left: 80px;
+  }
+}
+
+.footer_topmenu_guidemenu_list {
+  padding-top: 16px;
+}
+
+.footer_topmenu_guidemenu_item {
+  font-size: 14px;
+  margin-top: 12px;
+  cursor: pointer;
+  // 첫 번째 요소 제외
+  &:first-child {
+    margin-top: 0; // 첫 번째 요소는 margin-top 없음
+  }
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.font_normal {
+  font-weight: normal;
+}
+
+.font_strong {
+  font-size: 16px;
+}
+
+.footer_topmenu_right_container {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer_topmenu_right_item {
+  padding-top: 8px;
+}
+
+.footer_topmenu_faq_button {
+  border-radius: 0;
+  background-color: #222;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  height: 34px;
+  letter-spacing: -0.06px;
+  padding: 0px 14px;
+  margin-top: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
