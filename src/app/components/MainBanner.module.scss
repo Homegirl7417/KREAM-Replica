@@ -1,0 +1,40 @@
+.bannerContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.arrowButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+}
+
+.banner {
+  width: 880px;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.bannerItem {
+  min-width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.bannerItemImg {
+  width: 880px;
+  object-fit: contain;
+}
+
+.bannerItem.active {
+  opacity: 1;
+}
