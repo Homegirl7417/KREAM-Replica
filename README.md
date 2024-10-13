@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+# KREAM 클론 코딩 프로젝트
 
-## Getting Started
+이 프로젝트는 KREAM 웹사이트의 주요 컴포넌트를 구현하여 완벽한 사용자 경험을 목표로 하는 클론 코딩 프로젝트입니다.
 
-First, run the development server:
+## 목차
+1. [프로젝트 개요](#프로젝트-개요)
+2. [프로젝트 실행 방법](#프로젝트-실행-방법)
+3. [프로젝트 화면](#프로젝트-화면)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 1. 프로젝트 개요
+- **프로젝트명**: KREAM 웹사이트의 컴포넌트 구현
+- **프로젝트 의도**: 완벽한 사용자 경험을 위한 품질 높은 컴포넌트 클론 코딩
+- **기간**: 2024.10.07 ~ 2024.10.17
+- **주요 기술 스택**: 
+  - Next.js, JavaScript, React, SCSS, Context API, Storybook
+- **주요 구현 내용**:
+  - 스토리북을 활용해 재사용성이 높은 중요한 컴포넌트 3가지를 디자인 시스템화하여 구현
+  - 무한 스크롤 기능을 구현하고, 사용자 경험 측면에서 렌더링 최적화
+  - 번들러 설정을 통해 이미지 로딩 속도를 최적화
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. 프로젝트 실행 방법
+- **개발**: 
+  ```bash
+  npm run dev
+  ```
+  - http://localhost:3000 에서 확인 가능
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Storybook**: 
+  ```bash
+  npm run storybook
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 3. 프로젝트 화면
+- **Storybook**: 
+<img width="800" alt="Storybook 컴포넌트" src="https://github.com/user-attachments/assets/371e3b09-9a70-4fb6-b567-1ef9c6c2c8de">
 
-To learn more about Next.js, take a look at the following resources:
+- **메인페이지**: 
+<img width="800" alt="메인페이지 개발1" src="https://github.com/user-attachments/assets/687edb89-8b91-477f-a805-7125356ac0ba">
+<img width="800" alt="메인페이지 개발2" src="https://github.com/user-attachments/assets/cf1d28bc-1ea9-4957-91ac-a1062054425c">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
