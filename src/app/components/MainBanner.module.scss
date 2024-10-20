@@ -1,9 +1,21 @@
+.bannerBackground {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  left: 50%; /* 부모 요소 기준으로 중앙에서 시작 */
+  transform: translateX(-50%); /* 화면의 중앙을 기준으로 배너 이미지 정렬 */
+  margin: 0;
+}
+
 .bannerContainer {
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
+  width: 1024px;
   overflow: hidden;
+  margin: auto;
 }
 
 .arrowButton {
@@ -27,7 +39,7 @@
   background-size: cover;
   background-position: center;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  // transition: opacity 0.5s ease;
 }
 
 .bannerItemImg {
