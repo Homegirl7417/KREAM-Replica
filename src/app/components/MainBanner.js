@@ -11,16 +11,19 @@ const MainBanner = () => {
       alt: '킨 x 엔지니어드 가먼츠 단독 발매 배너 이미지',
       src: '/mainBanner1.webp',
       backgroundColor: 'rgb(158, 162, 163)',
+      arrowColor: 'white', // 이미지 배경색에 따라 white, gray로 분류
     },
     {
       alt: '지금 날씨에 가장 잘 어울리는 브랜드 배너 이미지',
       src: '/mainBanner2.webp',
       backgroundColor: 'rgb(179, 187, 148)',
+      arrowColor: 'white',
     },
     {
       alt: '인기 후드집업 모아보기 배너 이미지',
       src: '/mainBanner3.webp',
       backgroundColor: 'rgb(226, 225, 221) ',
+      arrowColor: 'white',
     },
   ];
 
@@ -39,10 +42,10 @@ const MainBanner = () => {
 
   return (
     <div className={styles.bannerBackground} style={{ backgroundColor: banners[currentIndex].backgroundColor }}>
+      <button onClick={handlePrev} className={styles.arrowButton} style={{ color: banners[currentIndex].arrowColor }}>
+        &lt;
+      </button>
       <div className={styles.bannerContainer}>
-        <button onClick={handlePrev} className={styles.arrowButton}>
-          &lt;
-        </button>
         <div className={styles.banner}>
           {banners.map((banner, idx) => (
             <div
@@ -54,10 +57,10 @@ const MainBanner = () => {
             </div>
           ))}
         </div>
-        <button onClick={handleNext} className={styles.arrowButton}>
-          &gt;
-        </button>
       </div>
+      <button onClick={handleNext} className={styles.arrowButton} style={{ color: banners[currentIndex].arrowColor }}>
+        &gt;
+      </button>
     </div>
   );
 };
